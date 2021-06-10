@@ -1,7 +1,7 @@
 # final_manager_gym
 # chạy các lệnh sau cài thư viện
 # front end
-1 npm install .
+1 npm install . 
 2 npm run serve .
 
 # backedn
