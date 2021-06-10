@@ -88,12 +88,15 @@ export default {
 
             let a = window.localStorage.getItem('aloalo');
             a = JSON.parse(a);
-            if (a.role.name == 'admin') {
-                this.$router.push('home')
+            if (a.role) {
+                if(a.role.name=='admin'){
+                     this.$router.push('home')
+                }else{
+                    this.$router.push('destaff')
+                    location.reload();
+                }  
             } else {
-                this.$router.push('destaff')
-                location.reload();
-
+                alert('login fail');
             }
 
         },
