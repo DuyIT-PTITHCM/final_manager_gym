@@ -98,7 +98,7 @@
                     <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/3.jpg" alt="" /></div>
                     <div class="timeline-panel">
                         <div class="timeline-heading">
-                            <h4>N18DCCN029</h4>
+                            <h4>N18DCCN215</h4>
                             <h4 class="subheading">Lê Long Thình</h4>
                         </div>
                     </div>
